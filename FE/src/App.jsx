@@ -8,7 +8,7 @@ import Intro from "./pages/Intro"
 
 import Login from "./pages/Login"
 import Register from "./pages/Register"
-import VerifyEmail from "./pages/verifyEmail"
+import VerifyEmail from "./pages/VerifyEmail"
 import ForgotPassword from "./pages/ForgotPassword"
 import ResetPassword from "./pages/resetPassword"
 
