@@ -398,8 +398,8 @@ def get_ticket_prices(route_id):
     conn.close()
     return jsonify([{"ticket_type": r[0], "price": r[1]} for r in rows])
 
-CORS(app, supports_credentials=True, 
-     origins=["http://localhost:5173"], 
+CORS(app, supports_credentials=True,
+     origins=["http://localhost:5173", "https://klksfe-tnhoanmys-projects.vercel.app"],
      allow_headers=["Content-Type", "user_cccd"])
 from payment_history_api import payment_history_bp
 
