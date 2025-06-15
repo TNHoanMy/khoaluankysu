@@ -99,8 +99,6 @@ sympy
 tenseal
 tensorboard
 tensorboard-data-server
-tensorflow==2.19.0
- tensorflow-io-gcs-filesystem 
 termcolor
 threadpoolctl
 tifffile
@@ -112,3 +110,4 @@ tzdata
 urllib3
 Werkzeug
 wrapt
+gunicorn
