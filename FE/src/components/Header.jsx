@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 import { useNavigate, Link } from "react-router-dom"
-import logo from "../assets/logo.svg"
+import logo from "../logo/logo.svg"
 import "./Header.css"
 
 export default function Header() {
