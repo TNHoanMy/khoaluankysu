@@ -9,17 +9,17 @@ export default function Carousel() {
   const slides = [
     {
       id: 1,
-      image: "/src/assets/xebuyt.png",
+      image: "/assets/xebuyt.png",
       alt: "Ho Chi Minh City Skyline with transportation",
     },
     {
       id: 2,
-      image: "/src/assets/face.png",
+      image: "/assets/face.png",
       alt: "Public transportation in Ho Chi Minh City",
     },
     {
       id: 3,
-      image: "/src/assets/bus.png",
+      image: "/assets/bus.png",
       alt: "Bus transportation in Ho Chi Minh City",
     },
   ]
